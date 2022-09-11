@@ -1,0 +1,1 @@
+export {InvoiceDialog as default} from "./invoice-dialog"
