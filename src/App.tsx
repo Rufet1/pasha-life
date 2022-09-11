@@ -19,7 +19,7 @@ const Root = styled(Box)(({ theme }: { theme: Theme }) => ({
   height: "100vh",
   marginLeft: 100,
   marginTop: 80,
-  padding: "0 20px",
+  padding: "0 20px 0 4px",
   display: "flex",
   [theme.breakpoints.down("md")]: {
     marginLeft: 0,
