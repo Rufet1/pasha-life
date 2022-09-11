@@ -33,9 +33,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "yarn-install": "yarn --silent",
-    "start": "react-scripts start",
+    "install": "yarn --silent",
     "start-json-server": "json-server --watch ./db.json --port 3001",
+    "start": "react-scripts start",
     "dev": "concurrently --kill-others \"npm run start\" \"npm run start-json-server\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
