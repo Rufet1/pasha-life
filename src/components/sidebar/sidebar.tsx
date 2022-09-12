@@ -15,7 +15,7 @@ import { Link } from "react-router-dom";
 
 const Root = styled(Box)(() => ({
   position: "fixed",
-  zIndex: 10000,
+  // zIndex: 10000,
   "& .collapsed-icon": {
     color: "text.secondary",
     transform: "rotate(270deg)",

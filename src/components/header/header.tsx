@@ -24,9 +24,9 @@ const Root = styled(AppBar)(({ theme }: { theme: Theme }) => ({
   gap: theme.spacing(3),
   [theme.breakpoints.down("md")]: {
     gap: theme.spacing(1),
-    left: 0,
+    left: 20,
     height: 75,
-    paddingRight: theme.spacing(1),
+    paddingRight: theme.spacing(4),
   },
   flexDirection: "row",
   "& .MuiSelect-iconStandard": {
